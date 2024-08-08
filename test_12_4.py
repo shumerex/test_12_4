@@ -40,6 +40,6 @@ class RunnerTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-logging.basicConfig(level=logging.INFO, filemode='r', filename='runner_tests.log', encoding='utf-8',
+logging.basicConfig(level=logging.INFO, filemode='w', filename='runner_tests.log', encoding='utf-8',
                     format="%(asctime)s | %(levelname)s | %(message)s")
 
